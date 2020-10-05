@@ -1,10 +1,12 @@
 import React from "react";
 import Row from "./Row";
 import Banner from "./Banner";
+import Navbar from "./Navbar";
 import { api } from "../Helpers/Api-URL";
 function App() {
   return (
     <div className="app">
+      <Navbar />
       <Banner />
       <Row
         title={"NETFLIX ORIGINALS"}
