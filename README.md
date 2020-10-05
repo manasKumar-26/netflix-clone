@@ -1,3 +1,6 @@
+## Deployed Using Firebase <br />
+
+### https://netflix-clone-f4046.web.app
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
