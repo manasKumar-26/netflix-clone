@@ -1,6 +1,6 @@
 const API_KEY = "0d537074a412b948868bac1af9e606c0";
 export const api = {
-  fetchTrending: `trending/all/week?api_key=${API_KEY}&language=en-US`,
+  fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
   fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
